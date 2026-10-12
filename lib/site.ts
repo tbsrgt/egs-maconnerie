@@ -11,8 +11,9 @@ export const site = {
     "Maçonnerie, charpente et rénovation à Salon-de-Provence et Aix-en-Provence : maisons, extensions, murs, piscines, pierre. Devis gratuit sous 48 h.",
 
   owner: "Abdel Guenniche",
-  phone: "07 62 01 23 89",
-  phoneHref: "+33762012389",
+  // Même numéro que Concept Rénovation (conceptrenovation.eu), partenaire.
+  phone: "07 89 41 46 26",
+  phoneHref: "+33789414626",
   email: "egs.entreprise13@gmail.com",
   city: "Salon-de-Provence",
   postalCode: "13300",
