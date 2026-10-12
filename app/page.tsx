@@ -75,7 +75,7 @@ export default function HomePage() {
 
         <div className="hero__content wrap">
           <h1 id="hero-title" className="hero__h1">
-            <span className="hero__kicker">Maçon à Salon-de-Provence et dans le pays salonais</span>
+            <span className="hero__kicker">Maçon à Salon-de-Provence et Aix-en-Provence</span>
             <SplitWords text="Bâtir d'aplomb." className="hero__title display" delay={420} stagger={90} />
           </h1>
           <div className="hero__bottom">
@@ -95,7 +95,7 @@ export default function HomePage() {
           <ul className="hero__facts" role="list">
             <li>Visite et devis gratuits</li>
             <li>Devis sous 48 h</li>
-            <li>Garantie décennale</li>
+            <li>Maçonnerie et charpente</li>
           </ul>
         </div>
         <PlumbLine className="hero__plumb" />
@@ -316,7 +316,7 @@ export default function HomePage() {
           <div className="zone__card" data-reveal="">
             <p className="kicker">Secteur</p>
             <h2 id="zone-title" className="h2">
-              Le pays salonais, <span className="muted">à moins de trente minutes.</span>
+              De Salon à Aix, <span className="muted">à moins de trente minutes.</span>
             </h2>
             <ul className="zone__list" role="list">
               {communes.map((c) => (

@@ -131,9 +131,9 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "maison-miramas",
+    slug: "maison-aix",
     title: "Le gros œuvre d'une maison neuve",
-    commune: "Miramas",
+    commune: "Aix-en-Provence",
     category: "Gros œuvre",
     service: "construction-maison",
     cover: "p-dalle",

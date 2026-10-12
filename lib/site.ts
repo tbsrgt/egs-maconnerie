@@ -8,7 +8,7 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://egs-maconnerie.vercel.app").replace(/\/$/, ""),
   baseline: "Bâtir d'aplomb",
   description:
-    "EGS Maçonnerie, entreprise de maçonnerie, charpente et rénovation à Salon-de-Provence et dans le pays salonais : construction de maisons, extensions, rénovation en pierre, murs, terrasses, piscines et charpentes bois. Devis gratuit sous 48 h.",
+    "EGS Maçonnerie, entreprise de maçonnerie, charpente et rénovation à Salon-de-Provence, Aix-en-Provence et alentour : construction de maisons, extensions, rénovation en pierre, murs, terrasses, piscines et charpentes bois. Devis gratuit sous 48 h.",
 
   owner: "Abdel Guenniche",
   phone: "07 62 01 23 89",
@@ -23,7 +23,6 @@ export const site = {
   hours: "Du lundi au vendredi, de 7 h 30 à 18 h",
   openingHours: ["Mo-Fr 07:30-18:00"],
   siret: "881 746 275 00018",
-  insurer: "À compléter",
   // Année d'installation à Salon-de-Provence (l'activité a débuté en Ardèche en 2007).
   founded: 2020,
   socials: [{ label: "Facebook", href: "https://www.facebook.com/egsguenniche/" }],

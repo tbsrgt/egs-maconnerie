@@ -5,9 +5,9 @@ import { PageHero } from "@/components/PageHero";
 import { communes } from "@/lib/communes";
 
 export const metadata: Metadata = {
-  title: "Secteur d'intervention : maçon autour de Salon-de-Provence",
+  title: "Secteur d'intervention : maçon de Salon-de-Provence à Aix-en-Provence",
   description:
-    "EGS Maçonnerie intervient à Salon-de-Provence, Pélissanne, Grans, Lamanon, Eyguières, Lançon-Provence, Sénas, Miramas, La Fare-les-Oliviers, Istres et dans les Bouches-du-Rhône. Visite et devis gratuits.",
+    "EGS Maçonnerie intervient à Salon-de-Provence, Aix-en-Provence, Pélissanne, Grans, Lamanon, Eyguières, Lançon-Provence, Sénas, La Fare-les-Oliviers et dans les Bouches-du-Rhône. Visite et devis gratuits.",
   alternates: { canonical: "/zones-intervention" },
 };
 
@@ -17,8 +17,8 @@ export default function ZonesPage() {
       <PageHero
         crumbs={[{ name: "Secteur", path: "/zones-intervention" }]}
         kicker="Secteur d'intervention"
-        title="Le pays salonais, à moins de trente minutes."
-        mutedFrom={3}
+        title="De Salon à Aix, à moins de trente minutes."
+        mutedFrom={4}
         lead="Être proche, c'est être réactif : venir voir vite, passer en fin de journée vérifier un coulage, revenir lever une réserve. On travaille donc autour de notre base de Salon-de-Provence."
       />
       <section className="section--tight">

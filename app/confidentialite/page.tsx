@@ -23,7 +23,7 @@ export default function ConfidentialitePage() {
           <h2>Durée de conservation</h2>
           <p>
             Les demandes sans suite sont supprimées au bout de trois ans après le dernier contact. Les devis acceptés sont
-            conservés le temps nécessaire aux obligations comptables et à la garantie décennale.
+            conservés le temps nécessaire aux obligations comptables et au suivi des travaux.
           </p>
           <h2>Partage</h2>
           <p>Vos données ne sont ni vendues ni cédées. Elles ne sont transmises à aucun tiers à des fins commerciales.</p>

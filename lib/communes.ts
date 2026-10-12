@@ -21,6 +21,16 @@ export const communes: Commune[] = [
     geo: { lat: 43.6403, lng: 5.0973 },
   },
   {
+    slug: "aix-en-provence",
+    name: "Aix-en-Provence",
+    postalCode: "13090",
+    distance: "30 min",
+    text:
+      "Du centre ancien aux quartiers de Puyricard, Luynes ou Les Milles, Aix réunit tous les chantiers : hôtels particuliers en pierre, bastides dans les collines, villas des années 70 à agrandir. En secteur sauvegardé, on travaille avec les prescriptions de l'Architecte des Bâtiments de France.",
+    typical: ["Rénovation en pierre", "Ouverture de mur porteur", "Extension", "Charpente"],
+    geo: { lat: 43.5297, lng: 5.4474 },
+  },
+  {
     slug: "pelissanne",
     name: "Pélissanne",
     postalCode: "13330",
@@ -81,16 +91,6 @@ export const communes: Commune[] = [
     geo: { lat: 43.7447, lng: 5.0789 },
   },
   {
-    slug: "miramas",
-    name: "Miramas",
-    postalCode: "13140",
-    distance: "20 min",
-    text:
-      "Une ville qui se construit, et le village perché de Miramas-le-Vieux. Gros œuvre de maisons neuves, dalles, extensions et clôtures maçonnées avec piliers de portail.",
-    typical: ["Gros œuvre", "Dalles", "Clôtures"],
-    geo: { lat: 43.5839, lng: 5.0017 },
-  },
-  {
     slug: "la-fare-les-oliviers",
     name: "La Fare-les-Oliviers",
     postalCode: "13580",
@@ -99,16 +99,6 @@ export const communes: Commune[] = [
       "Des collines d'oliviers au-dessus de l'étang de Berre et des terrains souvent en pente. Murs de clôture, soutènements, terrasses et piscines pour profiter de la vue.",
     typical: ["Murs de clôture", "Soutènement", "Piscines"],
     geo: { lat: 43.5517, lng: 5.195 },
-  },
-  {
-    slug: "istres",
-    name: "Istres",
-    postalCode: "13800",
-    distance: "25 min",
-    text:
-      "Entre étangs et Crau, un centre ancien et de grands quartiers pavillonnaires. Extensions, ouvertures de murs porteurs et aménagements extérieurs pour des maisons qui évoluent.",
-    typical: ["Extension", "Ouverture de mur porteur", "Extérieurs"],
-    geo: { lat: 43.515, lng: 4.9894 },
   },
 ];
 

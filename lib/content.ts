@@ -22,13 +22,13 @@ export const steps = [
   {
     n: "05",
     title: "Une réception claire",
-    text: "On fait le tour de l'ouvrage avec vous. Les réserves sont levées vite, et la garantie décennale vous couvre pendant dix ans.",
+    text: "On fait le tour de l'ouvrage avec vous, point par point. S'il reste une reprise à faire, on revient vite la faire.",
   },
 ];
 
 export const commitments = [
   { value: 48, suffix: " h", label: "pour recevoir votre devis après la visite" },
-  { value: 10, suffix: " ans", label: "de garantie décennale sur le gros œuvre" },
+  { value: 30, suffix: "+", label: "maisons construites au fil du parcours" },
   { value: 1, suffix: "", label: "seul interlocuteur, du premier rendez-vous à la réception" },
   { value: 0, suffix: " €", label: "pour la visite et le devis, sans engagement" },
 ];
@@ -57,16 +57,12 @@ export const faq = [
     a: "Cela dépend de la saison et de la taille du chantier. On vous donne une date de démarrage ferme avec le devis, et on s'y tient.",
   },
   {
-    q: "Êtes-vous assurés ?",
-    a: "Oui. Nous sommes couverts par une garantie décennale et une responsabilité civile professionnelle. Les attestations sont jointes à chaque devis.",
-  },
-  {
     q: "Intervenez-vous pour les particuliers et les professionnels ?",
     a: "Les deux. Particuliers, architectes, maîtres d'œuvre, syndics et agences immobilières nous confient leurs chantiers de maçonnerie.",
   },
   {
     q: "Quelle zone couvrez-vous ?",
-    a: "Salon-de-Provence et les communes alentour, dans un rayon d'environ 30 minutes : Pélissanne, Grans, Lamanon, Eyguières, Lançon-Provence, Sénas, Miramas, La Fare-les-Oliviers, Istres. Plus largement, les Bouches-du-Rhône et les départements limitrophes selon le chantier.",
+    a: "Salon-de-Provence, Aix-en-Provence et les communes alentour, dans un rayon d'environ 30 minutes : Pélissanne, Grans, Lamanon, Eyguières, Lançon-Provence, Sénas, La Fare-les-Oliviers. Plus largement, les Bouches-du-Rhône et les départements limitrophes selon le chantier.",
   },
   {
     q: "Pouvez-vous gérer les démarches administratives ?",

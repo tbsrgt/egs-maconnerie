@@ -7,7 +7,7 @@ import { commitments, steps } from "@/lib/content";
 export const metadata: Metadata = {
   title: "L'entreprise : Abdel Guenniche, maçon à Salon-de-Provence",
   description:
-    "EGS Maçonnerie, l'entreprise d'Abdel Guenniche à Salon-de-Provence : un parcours de maçon commencé à seize ans, plus de trente maisons construites, maçonnerie, charpente et rénovation. Visite et devis gratuits, planning tenu, garantie décennale.",
+    "EGS Maçonnerie, l'entreprise d'Abdel Guenniche à Salon-de-Provence : un parcours de maçon commencé à seize ans, plus de trente maisons construites, maçonnerie, charpente et rénovation. Visite et devis gratuits, planning tenu, chantier propre.",
   alternates: { canonical: "/entreprise" },
 };
 
@@ -161,8 +161,8 @@ export default function EntreprisePage() {
       <section className="section--tight section--alt">
         <div className="wrap guarantees">
           <div data-reveal="">
-            <h2 className="detail__box-title">Assurances</h2>
-            <p>Garantie décennale et responsabilité civile professionnelle. Attestations jointes à chaque devis.</p>
+            <h2 className="detail__box-title">Métiers</h2>
+            <p>Maçonnerie, charpente, rénovation et aménagements extérieurs, du neuf comme de l&apos;ancien.</p>
           </div>
           <div data-reveal="" style={{ "--d": 90 } as React.CSSProperties}>
             <h2 className="detail__box-title">Pour qui</h2>
@@ -171,8 +171,8 @@ export default function EntreprisePage() {
           <div data-reveal="" style={{ "--d": 180 } as React.CSSProperties}>
             <h2 className="detail__box-title">Où</h2>
             <p>
-              Salon-de-Provence et le pays salonais, et plus largement les Bouches-du-Rhône et les départements
-              limitrophes.
+              Salon-de-Provence, Aix-en-Provence et leurs alentours, et plus largement les Bouches-du-Rhône et les
+              départements limitrophes.
             </p>
           </div>
         </div>

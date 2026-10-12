@@ -44,6 +44,7 @@ export const metadata: Metadata = {
   keywords: [
     "maçon Salon-de-Provence",
     "maçonnerie Salon-de-Provence",
+    "maçon Aix-en-Provence",
     "entreprise de maçonnerie Salon-de-Provence",
     "charpente bois Salon-de-Provence",
     "gros œuvre Salon-de-Provence",

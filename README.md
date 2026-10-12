@@ -20,10 +20,9 @@ Reste à confirmer avec l'entreprise :
 
 | Élément | Où le changer |
 | --- | --- |
-| Assureur décennale | `lib/site.ts` |
 | Adresse (46 rue de Moscou : vient de l'annuaire, pas de l'ancien site) | `lib/site.ts` |
 | Réalisations (textes et photos d'illustration, pas encore les vrais chantiers) | `lib/projects.ts` + `public/images/` |
-| Engagements (48 h, décennale…) | `lib/content.ts` |
+| Engagements (48 h, 30+ maisons…) | `lib/content.ts` |
 | Domaine définitif | variable `NEXT_PUBLIC_SITE_URL` sur Vercel |
 
 Les photos actuelles sont des photos libres (Unsplash, plus une photo de charpente du domaine public),

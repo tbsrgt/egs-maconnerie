@@ -30,8 +30,6 @@ export default function MentionsPage() {
             <br />
             Directeur de la publication : {site.owner}
           </p>
-          <h2>Assurance professionnelle</h2>
-          <p>Garantie décennale souscrite auprès de : {site.insurer}.</p>
           <h2>Hébergement</h2>
           <p>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>
           <h2>Propriété intellectuelle</h2>
