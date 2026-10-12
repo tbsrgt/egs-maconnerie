@@ -69,6 +69,10 @@ export const faq = [
     a: "On vous aide à préparer les éléments techniques d'une déclaration préalable ou d'un permis (plans de principe, descriptif, matériaux). Pour un permis complexe, on vous oriente vers un architecte partenaire.",
   },
   {
+    q: "Et pour une rénovation complète, avec plusieurs corps de métier ?",
+    a: "Nous travaillons avec Concept Rénovation (conceptrenovation.eu), courtier en travaux et assistant à maîtrise d'ouvrage en Provence. Pour un projet qui réunit plusieurs artisans, ils coordonnent l'ensemble et nous prenons en charge la maçonnerie, la charpente et le gros œuvre.",
+  },
+  {
     q: "Comment se passent les paiements ?",
     a: "Un acompte à la commande, puis des situations de travaux à l'avancement et le solde à la réception. Tout est écrit dans le devis.",
   },

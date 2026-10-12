@@ -1187,3 +1187,16 @@
   font-size: 0.85rem;
   color: var(--ink-2);
 }
+
+/* Partenaire (Concept Rénovation) sur la page L'entreprise. */
+.partner {
+  max-width: 52rem;
+}
+
+.partner__title {
+  margin-block: 1.25rem 1.5rem;
+}
+
+.partner .lead {
+  margin-bottom: 1.75rem;
+}

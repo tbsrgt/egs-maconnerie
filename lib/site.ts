@@ -25,6 +25,11 @@ export const site = {
   siret: "881 746 275 00018",
   // Année d'installation à Salon-de-Provence (l'activité a débuté en Ardèche en 2007).
   founded: 2020,
+  partner: {
+    name: "Concept Rénovation",
+    href: "https://www.conceptrenovation.eu",
+    label: "conceptrenovation.eu",
+  },
   socials: [{ label: "Facebook", href: "https://www.facebook.com/egsguenniche/" }],
 } as const;
 

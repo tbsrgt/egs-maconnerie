@@ -66,6 +66,11 @@ export function SiteFooter() {
               <li><Link href="/realisations">Réalisations</Link></li>
               <li><Link href="/questions">Questions fréquentes</Link></li>
               <li><Link href="/devis">Devis gratuit</Link></li>
+              <li>
+                <a href={site.partner.href} rel="noopener" target="_blank">
+                  Partenaire : {site.partner.name}
+                </a>
+              </li>
               <li><Link href="/mentions-legales">Mentions légales</Link></li>
               <li><Link href="/confidentialite">Confidentialité</Link></li>
             </ul>

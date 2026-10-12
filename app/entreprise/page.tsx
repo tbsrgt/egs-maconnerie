@@ -3,6 +3,7 @@ import Image from "next/image";
 import { CountUp } from "@/components/CountUp";
 import { PageHero } from "@/components/PageHero";
 import { commitments, steps } from "@/lib/content";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "L'entreprise : Abdel Guenniche, maçon à Salon-de-Provence",
@@ -155,6 +156,33 @@ export default function EntreprisePage() {
               ))}
             </ol>
           </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap partner">
+          <p className="kicker" data-reveal="">
+            Partenaire
+          </p>
+          <h2 className="h2 partner__title" data-reveal="">
+            Concept Rénovation, <span className="muted">pour les projets complets.</span>
+          </h2>
+          <p className="lead" data-reveal="" style={{ "--d": 120 } as React.CSSProperties}>
+            Nous travaillons main dans la main avec {site.partner.name}, courtier en travaux et assistant à maîtrise
+            d&apos;ouvrage en Provence. Quand une rénovation réunit plusieurs corps de métier, ils coordonnent le projet
+            et nous réalisons la maçonnerie, la charpente et le gros œuvre. Un seul suivi pour vous, des artisans qui se
+            connaissent.
+          </p>
+          <a
+            href={site.partner.href}
+            className="link"
+            rel="noopener"
+            target="_blank"
+            data-reveal=""
+            style={{ "--d": 200 } as React.CSSProperties}
+          >
+            Découvrir {site.partner.label} <span aria-hidden="true">→</span>
+          </a>
         </div>
       </section>
 
