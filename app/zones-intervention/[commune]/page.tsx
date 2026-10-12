@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps<"/zones-interventio
   const title = `Maçon ${atCommune(c.name)} (${c.postalCode})`;
   return {
     title,
-    description: `Entreprise de maçonnerie ${atCommune(c.name)} : ${c.typical.join(", ").toLowerCase()}, gros œuvre et rénovation. EGS Maçonnerie, ${c.distance === "Notre base" ? "basée à Salon" : `à ${c.distance} de Salon`}. Visite et devis gratuits.`,
+    description: `Maçon ${atCommune(c.name)} : ${c.typical.join(", ").toLowerCase()}. EGS Maçonnerie, ${c.distance === "Notre base" ? "basée à Salon" : `à ${c.distance} de Salon`}, devis gratuit.`,
     alternates: { canonical: `/zones-intervention/${c.slug}` },
   };
 }

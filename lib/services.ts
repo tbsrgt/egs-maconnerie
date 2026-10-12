@@ -24,7 +24,7 @@ export const services: Service[] = [
     short: "Murs, dalles, fondations, chapes : le cœur du métier, fait proprement et dans les règles.",
     metaTitle: "Maçonnerie générale à Salon-de-Provence",
     metaDescription:
-      "Maçon à Salon-de-Provence pour vos travaux de maçonnerie générale : fondations, dalles, murs en parpaing, brique ou pierre, chapes et reprises. Devis gratuit sous 48 h.",
+      "Maçon à Salon-de-Provence : fondations, dalles, murs en parpaing, brique ou pierre, chapes et reprises. Devis gratuit sous 48 h.",
     h1: "Maçonnerie générale dans le pays salonais",
     lead:
       "Fondations, dalles, murs, chapes, reprises : la maçonnerie générale, c'est tout ce qui porte une maison. On la traite comme telle, avec des matériaux choisis et des contrôles à chaque étape.",
@@ -67,9 +67,9 @@ export const services: Service[] = [
     index: "02",
     title: "Gros œuvre de maison",
     short: "De la fouille à la dalle haute : le gros œuvre complet de votre maison individuelle.",
-    metaTitle: "Gros œuvre et construction de maison à Salon-de-Provence",
+    metaTitle: "Gros œuvre de maison à Salon-de-Provence",
     metaDescription:
-      "Gros œuvre de maison individuelle dans le pays salonais : fondations, élévation des murs, planchers, réseaux enterrés. Un seul interlocuteur, un planning tenu. Devis gratuit.",
+      "Gros œuvre de maison individuelle : fondations, murs, planchers, réseaux enterrés. Un seul interlocuteur, un planning tenu. Devis gratuit.",
     h1: "Le gros œuvre de votre maison, de la fouille à la dalle haute",
     lead:
       "Le gros œuvre représente une grande partie du budget d'une maison et toute sa solidité. On le prend en charge du premier coup de pelle jusqu'au plancher haut, avec un interlocuteur unique.",
@@ -111,9 +111,9 @@ export const services: Service[] = [
     index: "03",
     title: "Extension et surélévation",
     short: "Gagner des mètres carrés sans déménager, avec une extension qui se fond dans l'existant.",
-    metaTitle: "Extension de maison et surélévation à Salon-de-Provence",
+    metaTitle: "Extension de maison à Salon-de-Provence",
     metaDescription:
-      "Extension de maison, garage transformé, surélévation dans le pays salonais : fondations, murs, raccord à l'existant et ouverture. Maçon expérimenté, devis gratuit sous 48 h.",
+      "Extension, garage transformé, surélévation : fondations, murs, raccord à l'existant et ouverture. Maçon expérimenté, devis gratuit sous 48 h.",
     h1: "Agrandir votre maison, sans que ça se voie",
     lead:
       "Une bonne extension donne l'impression d'avoir toujours été là. Tout se joue au raccord avec l'existant : fondations, niveaux, appuis, étanchéité et finition des façades.",
@@ -156,7 +156,7 @@ export const services: Service[] = [
     short: "Créer une baie, ouvrir une cuisine : on soutient, on ouvre, on pose la poutre. En sécurité.",
     metaTitle: "Ouverture de mur porteur à Salon-de-Provence",
     metaDescription:
-      "Création d'ouverture dans un mur porteur à Salon-de-Provence et alentours : étaiement, pose d'IPN ou de linteau béton, note de calcul. Travail propre et sécurisé, devis gratuit.",
+      "Ouverture de mur porteur à Salon-de-Provence et alentour : étaiement, IPN ou linteau béton, note de calcul. Travail propre, devis gratuit.",
     h1: "Ouvrir un mur porteur, en toute sécurité",
     lead:
       "Ouvrir une cuisine sur le séjour ou créer une grande baie change une maison. C'est aussi une opération de structure qui ne s'improvise pas.",
@@ -197,9 +197,9 @@ export const services: Service[] = [
     index: "05",
     title: "Rénovation en pierre",
     short: "Bastides, mas et maisons de village : rejointoiement à la chaux, reprises, restauration.",
-    metaTitle: "Rénovation de murs en pierre et maçonnerie ancienne, pays salonais",
+    metaTitle: "Rénovation de murs en pierre, pays salonais",
     metaDescription:
-      "Rénovation de maçonnerie ancienne et de murs en pierre à Salon-de-Provence : rejointoiement à la chaux, reprises de pierre, restauration de bastides et maisons de village. Devis gratuit.",
+      "Maçonnerie ancienne : rejointoiement à la chaux, reprises de pierre, restauration de bastides et de maisons de village. Devis gratuit.",
     h1: "La pierre ancienne, restaurée avec les bons gestes",
     lead:
       "Un mur en pierre a besoin de respirer. Le ciment l'étouffe et le fait souffrir. On restaure les maçonneries anciennes à la chaux, avec des pierres du pays, comme elles ont été bâties.",
@@ -241,9 +241,9 @@ export const services: Service[] = [
     index: "06",
     title: "Murs et clôtures",
     short: "Murs de clôture, de soutènement, restanques en pierre sèche : des murs qui tiennent le terrain.",
-    metaTitle: "Murs de clôture, soutènement et pierre sèche, Salon-de-Provence",
+    metaTitle: "Murs de clôture et soutènement à Salon",
     metaDescription:
-      "Construction de murs de clôture, murs de soutènement et restanques en pierre sèche dans le pays salonais. Fondations dimensionnées, drainage, finitions soignées. Devis gratuit.",
+      "Murs de clôture, murs de soutènement et restanques en pierre sèche : fondations dimensionnées, drainage, finitions soignées. Devis gratuit.",
     h1: "Des murs qui tiennent le terrain",
     lead:
       "Un mur de clôture fixe l'allure d'une maison. Un mur de soutènement, lui, retient des tonnes de terre. Dans les deux cas, ce qu'on ne voit pas compte autant que ce qu'on voit.",
@@ -285,9 +285,9 @@ export const services: Service[] = [
     index: "07",
     title: "Terrasses et extérieurs",
     short: "Terrasses, piscines, escaliers, allées : prolonger la maison dehors.",
-    metaTitle: "Terrasse, piscine et escalier extérieur, pays salonais",
+    metaTitle: "Terrasse, piscine et escalier extérieur",
     metaDescription:
-      "Création de terrasses, piscines maçonnées, plages de piscine, escaliers et allées en pierre dans le pays salonais. Dallage pierre, béton désactivé, margelles. Devis gratuit sous 48 h.",
+      "Terrasses, piscines maçonnées, plages, escaliers et allées autour de Salon-de-Provence : dallage, béton désactivé, margelles. Devis gratuit.",
     h1: "Prolonger la maison dehors",
     lead:
       "En Provence, on vit dehors une bonne partie de l'année. Une terrasse bien faite, c'est une pièce en plus : de niveau, drainée, agréable pieds nus et durable.",
@@ -330,9 +330,9 @@ export const services: Service[] = [
     index: "08",
     title: "Enduits et façades",
     short: "Enduits à la chaux, finitions frotassées ou grattées, ravalement : la façade fait l'allure.",
-    metaTitle: "Enduit de façade à la chaux et ravalement, Salon-de-Provence",
+    metaTitle: "Enduit de façade à la chaux à Salon",
     metaDescription:
-      "Enduits de façade à la chaux, enduits monocouches et ravalement à Salon-de-Provence. Teintes provençales, finitions frotassée, grattée ou talochée. Devis gratuit sous 48 h.",
+      "Enduits de façade à la chaux, monocouches et ravalement : teintes provençales, finitions frotassée, grattée ou talochée. Devis gratuit.",
     h1: "La façade, c'est la première impression",
     lead:
       "Un enduit protège les murs autant qu'il les habille. On choisit avec vous la composition, la teinte et la finition qui conviennent au mur et au paysage.",
@@ -373,9 +373,9 @@ export const services: Service[] = [
     index: "09",
     title: "Charpente bois",
     short: "Étude et pose de charpentes en bois, en neuf comme en rénovation : le toit, par la même équipe que les murs.",
-    metaTitle: "Charpente bois à Salon-de-Provence : neuf et rénovation",
+    metaTitle: "Charpente bois à Salon-de-Provence",
     metaDescription:
-      "Étude et pose de charpentes en bois à Salon-de-Provence et dans le pays salonais : maison neuve, extension, réfection de charpente ancienne. Maçonnerie et charpente par la même entreprise. Devis gratuit.",
+      "Charpentes bois neuves ou rénovées : maison, extension, réfection de charpente ancienne. Maçonnerie et charpente par la même entreprise.",
     h1: "La charpente, posée par ceux qui ont monté les murs",
     lead:
       "Une charpente repose sur une maçonnerie qui doit l'attendre au bon niveau, avec les bons appuis. Quand la même entreprise fait les deux, il n'y a ni attente ni rejet de responsabilité entre corps de métier.",

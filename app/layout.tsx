@@ -36,7 +36,7 @@ const text = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `Maçon à Salon-de-Provence : maçonnerie, charpente et rénovation | ${site.name}`,
+    default: `Maçon à Salon-de-Provence et Aix | ${site.name}`,
     template: `%s | ${site.name}`,
   },
   description: site.description,

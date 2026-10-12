@@ -1,6 +1,6 @@
 // Coordonnées et réglages de l'entreprise.
-// Sources : ancien site Wix (egsabdelguenniche.wixsite.com/egsentreprise13) et
-// annuaire maconnerieinfo.com. Ce qui reste « À compléter » n'y figurait pas.
+// Sources : ancien site Wix (egsabdelguenniche.wixsite.com/egsentreprise13),
+// annuaire maconnerieinfo.com et registre des entreprises (voir `legal`).
 
 export const site = {
   name: "EGS Maçonnerie",
@@ -8,13 +8,12 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://egs-maconnerie.vercel.app").replace(/\/$/, ""),
   baseline: "Bâtir d'aplomb",
   description:
-    "EGS Maçonnerie, entreprise de maçonnerie, charpente et rénovation à Salon-de-Provence, Aix-en-Provence et alentour : construction de maisons, extensions, rénovation en pierre, murs, terrasses, piscines et charpentes bois. Devis gratuit sous 48 h.",
+    "Maçonnerie, charpente et rénovation à Salon-de-Provence et Aix-en-Provence : maisons, extensions, murs, piscines, pierre. Devis gratuit sous 48 h.",
 
   owner: "Abdel Guenniche",
   phone: "07 62 01 23 89",
   phoneHref: "+33762012389",
   email: "egs.entreprise13@gmail.com",
-  street: "46 rue de Moscou",
   city: "Salon-de-Provence",
   postalCode: "13300",
   region: "Provence-Alpes-Côte d'Azur",
@@ -22,9 +21,23 @@ export const site = {
   geo: { lat: 43.6403, lng: 5.0973 },
   hours: "Du lundi au vendredi, de 7 h 30 à 18 h",
   openingHours: ["Mo-Fr 07:30-18:00"],
-  siret: "881 746 275 00018",
-  // Année d'installation à Salon-de-Provence (l'activité a débuté en Ardèche en 2007).
-  founded: 2020,
+  // Identité légale : registre des entreprises (recherche-entreprises.api.gouv.fr),
+  // consulté le 12 octobre 2026. L'entreprise individuelle d'origine (SIREN 881 746 275)
+  // est fermée depuis le 31 janvier 2025 ; c'est la SAS ci-dessous qui exerce.
+  // Capital social et greffe d'immatriculation : absents du registre public, à confirmer.
+  legal: {
+    denomination: "EGS",
+    forme: "société par actions simplifiée (SAS)",
+    president: "Abdelkaioum Guenniche",
+    siege: "Résidence Villa Dolia, villa 11, 581 petite route de Carpentras, 84210 Pernes-les-Fontaines",
+    siren: "940 794 522",
+    siret: "940 794 522 00018",
+    tva: "FR89940794522",
+    ape: "41.20A, construction de maisons individuelles",
+    creation: "21 janvier 2025",
+    capital: undefined as string | undefined,
+    rcs: undefined as string | undefined,
+  },
   partner: {
     name: "Concept Rénovation",
     href: "https://www.conceptrenovation.eu",

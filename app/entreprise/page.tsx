@@ -6,9 +6,9 @@ import { commitments, steps } from "@/lib/content";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "L'entreprise : Abdel Guenniche, maçon à Salon-de-Provence",
+  title: "Abdel Guenniche, maçon à Salon-de-Provence",
   description:
-    "EGS Maçonnerie, l'entreprise d'Abdel Guenniche à Salon-de-Provence : un parcours de maçon commencé à seize ans, plus de trente maisons construites, maçonnerie, charpente et rénovation. Visite et devis gratuits, planning tenu, chantier propre.",
+    "EGS Maçonnerie, l'entreprise d'Abdel Guenniche : maçon depuis ses seize ans, plus de trente maisons construites, maçonnerie et charpente.",
   alternates: { canonical: "/entreprise" },
 };
 

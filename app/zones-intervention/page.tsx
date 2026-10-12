@@ -5,9 +5,9 @@ import { PageHero } from "@/components/PageHero";
 import { communes } from "@/lib/communes";
 
 export const metadata: Metadata = {
-  title: "Secteur d'intervention : maçon de Salon-de-Provence à Aix-en-Provence",
+  title: "Secteur : maçon de Salon à Aix-en-Provence",
   description:
-    "EGS Maçonnerie intervient à Salon-de-Provence, Aix-en-Provence, Pélissanne, Grans, Lamanon, Eyguières, Lançon-Provence, Sénas, La Fare-les-Oliviers et dans les Bouches-du-Rhône. Visite et devis gratuits.",
+    "EGS intervient à Salon-de-Provence, Aix-en-Provence, Pélissanne, Grans, Lamanon, Eyguières, Lançon, Sénas et La Fare-les-Oliviers. Devis gratuit.",
   alternates: { canonical: "/zones-intervention" },
 };
 

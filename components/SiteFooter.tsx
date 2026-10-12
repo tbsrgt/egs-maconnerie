@@ -27,7 +27,7 @@ export function SiteFooter() {
             <a href={`tel:${site.phoneHref}`}>{site.phone}</a>
             <a href={`mailto:${site.email}`}>{site.email}</a>
             <span>
-              {site.street}, {site.postalCode} {site.city}
+              {site.city}, {site.department}
             </span>
             <span>{site.hours}</span>
             {site.socials.map((s) => (

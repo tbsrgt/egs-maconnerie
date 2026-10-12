@@ -20,7 +20,7 @@ Reste à confirmer avec l'entreprise :
 
 | Élément | Où le changer |
 | --- | --- |
-| Adresse (46 rue de Moscou : vient de l'annuaire, pas de l'ancien site) | `lib/site.ts` |
+| Capital social et greffe (RCS) de la SAS EGS : absents du registre public | `lib/site.ts` (`legal`) |
 | Communes des réalisations (vraies photos, lieux inconnus) | `lib/projects.ts` |
 | Engagements (48 h, 30+ maisons…) | `lib/content.ts` |
 | Domaine définitif | variable `NEXT_PUBLIC_SITE_URL` sur Vercel |

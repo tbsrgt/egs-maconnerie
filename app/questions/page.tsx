@@ -7,7 +7,7 @@ import { faqSchema } from "@/lib/schema";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Questions fréquentes sur vos travaux de maçonnerie",
+  title: "Questions fréquentes sur la maçonnerie",
   description:
     "Devis, délais, autorisations, pierre ancienne, murs porteurs : les réponses d'EGS Maçonnerie aux questions qu'on nous pose le plus souvent avant un chantier.",
   alternates: { canonical: "/questions" },

@@ -5,9 +5,9 @@ import { PageHero } from "@/components/PageHero";
 import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
-  title: "Savoir-faire : maçonnerie, gros œuvre, pierre et extérieurs",
+  title: "Savoir-faire : maçonnerie, charpente, extérieurs",
   description:
-    "Maçonnerie générale, gros œuvre de maison, extension, ouverture de mur porteur, rénovation en pierre, murs et soutènements, terrasses et piscines, enduits à la chaux, charpente bois : les savoir-faire d'EGS Maçonnerie dans le pays salonais.",
+    "Gros œuvre, extension, mur porteur, pierre, murs, terrasses et piscines, enduits, charpente bois : les neuf métiers d'EGS Maçonnerie.",
   alternates: { canonical: "/savoir-faire" },
 };
 

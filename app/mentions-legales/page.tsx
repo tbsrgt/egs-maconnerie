@@ -17,18 +17,27 @@ export default function MentionsPage() {
         <div className="wrap legal">
           <h2>Éditeur du site</h2>
           <p>
-            {site.name}, entreprise de maçonnerie dirigée par {site.owner}
+            Le site {site.name} est édité par la société {site.legal.denomination}, {site.legal.forme}
+            {site.legal.capital ? <> au capital de {site.legal.capital}</> : null}.
             <br />
-            {site.street}, {site.postalCode} {site.city}
+            Siège social : {site.legal.siege}
             <br />
-            SIRET : {site.siret}
+            SIREN : {site.legal.siren}{site.legal.rcs ? <> RCS {site.legal.rcs}</> : null}
+            <br />
+            SIRET : {site.legal.siret}
+            <br />
+            TVA intracommunautaire : {site.legal.tva}
+            <br />
+            Code APE : {site.legal.ape}
+            <br />
+            Président : {site.legal.president}
             <br />
             Téléphone : {site.phone}
             <br />
             E-mail : {site.email}
-            <br />
-            Directeur de la publication : {site.owner}
           </p>
+          <h2>Directeur de la publication</h2>
+          <p>{site.legal.president}, président.</p>
           <h2>Hébergement</h2>
           <p>Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.</p>
           <h2>Propriété intellectuelle</h2>
