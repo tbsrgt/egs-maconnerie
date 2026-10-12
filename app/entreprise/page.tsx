@@ -5,9 +5,9 @@ import { PageHero } from "@/components/PageHero";
 import { commitments, steps } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "L'entreprise : un maçon du Pays d'Aix, exigeant et joignable",
+  title: "L'entreprise : Abdel Guenniche, maçon à Salon-de-Provence",
   description:
-    "EGS Maçonnerie, entreprise de maçonnerie à Aix-en-Provence. Nos valeurs, notre méthode de travail, nos garanties : visite et devis gratuits, planning tenu, chantier propre, garantie décennale.",
+    "EGS Maçonnerie, l'entreprise d'Abdel Guenniche à Salon-de-Provence : un parcours de maçon commencé à seize ans, plus de trente maisons construites, maçonnerie, charpente et rénovation. Visite et devis gratuits, planning tenu, garantie décennale.",
   alternates: { canonical: "/entreprise" },
 };
 
@@ -22,11 +22,35 @@ const values = [
   },
   {
     title: "Le respect des lieux",
-    text: "Votre maison, votre jardin, vos voisins. Bâches, protections, nettoyage chaque soir : on travaille chez vous comme chez nous.",
+    text: "Votre maison, votre jardin, vos voisins. On travaille avec discrétion : bâches, protections, nettoyage chaque soir. Chez vous comme chez nous.",
   },
   {
     title: "Le bâti d'ici",
     text: "La pierre du pays, la chaux, les teintes de Provence. On restaure dans les règles de l'art et on construit en accord avec le paysage.",
+  },
+];
+
+// Parcours d'Abdel Guenniche, d'après la page « Qui suis-je ? » de l'ancien site.
+const journey = [
+  {
+    n: "16 ans",
+    title: "Le métier dans les mains",
+    text: "Il quitte l'école à seize ans pour devenir maçon et apprend auprès de son oncle, sur les chantiers, en Algérie.",
+  },
+  {
+    n: "7 ans",
+    title: "Sa première entreprise",
+    text: "Il monte sa propre entreprise en Algérie et l'exerce plus de sept ans. Il y construit notamment sa maison et celle de ses parents.",
+  },
+  {
+    n: "2007",
+    title: "L'Ardèche",
+    text: "Arrivé en France, il fonde une entreprise de maçonnerie, de rénovation et de charpente en Ardèche. Plus de trente maisons, des immeubles et des piscines sortent de terre.",
+  },
+  {
+    n: "2020",
+    title: "Salon-de-Provence",
+    text: "En février 2020, EGS s'installe à Salon-de-Provence et intervient dans les Bouches-du-Rhône et les départements limitrophes.",
   },
 ];
 
@@ -36,11 +60,44 @@ export default function EntreprisePage() {
       <PageHero
         crumbs={[{ name: "L'entreprise", path: "/entreprise" }]}
         kicker="L'entreprise"
-        title="Un maçon du Pays d'Aix, exigeant et joignable."
+        title="Un maçon du pays salonais, exigeant et joignable."
         mutedFrom={5}
-        lead="EGS Maçonnerie est une entreprise de maçonnerie générale et de gros œuvre basée à Aix-en-Provence. Une équipe resserrée, des chantiers suivis de près, et un interlocuteur qui décroche quand vous appelez."
+        lead="EGS Maçonnerie, c'est l'entreprise d'Abdel Guenniche, maçon depuis l'âge de seize ans, installé à Salon-de-Provence depuis 2020. Maçonnerie, charpente et rénovation, des chantiers suivis de près, et un interlocuteur qui décroche quand vous appelez."
         image={{ src: "/images/geste-taille.jpg", alt: "Maçon taillant une pierre à la main sur un chantier" }}
       />
+
+      <section className="section section--alt">
+        <div className="wrap split2">
+          <div className="media split2__media" data-reveal="">
+            <Image src="/images/geste-truelle.jpg" alt="Maçon posant le mortier à la truelle sur un mur de briques" fill sizes="(min-width: 900px) 45vw, 92vw" quality={74} />
+          </div>
+          <div>
+            <p className="kicker" data-reveal="">
+              Parcours
+            </p>
+            <h2 className="h2 split2__title" data-reveal="">
+              Maçon depuis toujours, <span className="muted">bâtisseur avant tout.</span>
+            </h2>
+            <ol role="list" className="timeline timeline--wide">
+              {journey.map((j) => (
+                <li key={j.n} data-reveal="">
+                  <span className="timeline__n display">{j.n}</span>
+                  <div>
+                    <h3 className="timeline__title">{j.title}</h3>
+                    <p>{j.text}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+            <figure className="quote" data-reveal="">
+              <blockquote>
+                <p>« Abdel est un maçon très professionnel, à l&apos;écoute. »</p>
+              </blockquote>
+              <figcaption>Avis client publié sur maconnerieinfo.com</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
 
       <section className="section">
         <div className="wrap values">
@@ -113,7 +170,10 @@ export default function EntreprisePage() {
           </div>
           <div data-reveal="" style={{ "--d": 180 } as React.CSSProperties}>
             <h2 className="detail__box-title">Où</h2>
-            <p>Aix-en-Provence et le Pays d&apos;Aix, dans un rayon d&apos;environ trente minutes.</p>
+            <p>
+              Salon-de-Provence et le pays salonais, et plus largement les Bouches-du-Rhône et les départements
+              limitrophes.
+            </p>
           </div>
         </div>
       </section>

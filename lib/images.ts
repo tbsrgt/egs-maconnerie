@@ -124,6 +124,10 @@ export const imageSizes: Record<string, [number, number]> = {
   2200,
   1467
  ],
+ "svc-charpente": [
+  2200,
+  1467
+ ],
  "svc-enduit": [
   2200,
   3911

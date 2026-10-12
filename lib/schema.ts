@@ -18,8 +18,12 @@ export function businessSchema() {
     telephone: site.phoneHref,
     email: site.email,
     priceRange: "€€",
+    founder: { "@type": "Person", name: site.owner },
+    foundingDate: String(site.founded),
+    sameAs: site.socials.map((s) => s.href),
     address: {
       "@type": "PostalAddress",
+      streetAddress: site.street,
       addressLocality: site.city,
       postalCode: site.postalCode,
       addressRegion: site.region,
@@ -38,6 +42,8 @@ export function businessSchema() {
       "Mur de soutènement",
       "Pierre sèche",
       "Terrasse maçonnée",
+      "Construction de piscine",
+      "Charpente bois",
     ],
   };
 }

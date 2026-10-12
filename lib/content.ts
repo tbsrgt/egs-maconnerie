@@ -36,7 +36,7 @@ export const commitments = [
 export const materials = [
   "Pierre de Rognes",
   "Chaux naturelle NHL",
-  "Pierre de Bibémus",
+  "Pierre de Fontvieille",
   "Béton armé",
   "Pierre sèche",
   "Brique monomur",
@@ -44,12 +44,13 @@ export const materials = [
   "Enduit à la chaux",
   "Bloc béton",
   "Pierre de Bourgogne",
+  "Charpente bois",
 ];
 
 export const faq = [
   {
     q: "Le devis est-il vraiment gratuit ?",
-    a: "Oui. La visite sur place et le devis sont gratuits et sans engagement, dans tout le Pays d'Aix.",
+    a: "Oui. La visite sur place et le devis sont gratuits et sans engagement, dans tout le pays salonais.",
   },
   {
     q: "Dans quel délai pouvez-vous démarrer ?",
@@ -65,7 +66,7 @@ export const faq = [
   },
   {
     q: "Quelle zone couvrez-vous ?",
-    a: "Aix-en-Provence et les communes du Pays d'Aix, dans un rayon d'environ 30 minutes : Le Tholonet, Venelles, Éguilles, Meyreuil, Bouc-Bel-Air, Gardanne, Rognes, Trets, Pertuis et alentours.",
+    a: "Salon-de-Provence et les communes alentour, dans un rayon d'environ 30 minutes : Pélissanne, Grans, Lamanon, Eyguières, Lançon-Provence, Sénas, Miramas, La Fare-les-Oliviers, Istres. Plus largement, les Bouches-du-Rhône et les départements limitrophes selon le chantier.",
   },
   {
     q: "Pouvez-vous gérer les démarches administratives ?",
@@ -78,5 +79,13 @@ export const faq = [
   {
     q: "Travaillez-vous la pierre ancienne ?",
     a: "Oui, c'est l'un de nos savoir-faire : rejointoiement à la chaux, reprise de pierres, restauration de murs, d'arcs et d'encadrements, dans le respect du bâti provençal.",
+  },
+  {
+    q: "Faites-vous aussi la charpente ?",
+    a: "Oui. On étudie et on pose des charpentes en bois, en neuf comme en rénovation. Pour une extension ou une maison, maçonnerie et charpente sont faites par la même entreprise : un seul planning, un seul interlocuteur.",
+  },
+  {
+    q: "Construisez-vous des piscines ?",
+    a: "Oui, la piscine maçonnée fait partie de nos aménagements extérieurs, avec ses plages, ses margelles et le terrassement autour. On s'occupe aussi des murs de clôture et de la pose des portails.",
   },
 ];

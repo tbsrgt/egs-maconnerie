@@ -27,9 +27,14 @@ export function SiteFooter() {
             <a href={`tel:${site.phoneHref}`}>{site.phone}</a>
             <a href={`mailto:${site.email}`}>{site.email}</a>
             <span>
-              {site.city}, {site.department}
+              {site.street}, {site.postalCode} {site.city}
             </span>
             <span>{site.hours}</span>
+            {site.socials.map((s) => (
+              <a key={s.href} href={s.href} rel="noopener" target="_blank">
+                {s.label}
+              </a>
+            ))}
           </address>
         </div>
 
@@ -73,7 +78,7 @@ export function SiteFooter() {
         </div>
 
         <div className="ftr__base">
-          <span>© {new Date().getFullYear()} {site.name}. Maçonnerie générale et gros œuvre dans le Pays d&apos;Aix.</span>
+          <span>© {new Date().getFullYear()} {site.name}. Maçonnerie, charpente et rénovation dans le pays salonais.</span>
           <Link href="/mentions-legales#credits">Crédits photo</Link>
         </div>
       </div>

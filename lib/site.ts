@@ -1,6 +1,6 @@
 // Coordonnées et réglages de l'entreprise.
-// Tout ce qui est marqué « À CONFIRMER » est provisoire : l'entreprise n'a pas
-// encore de présence en ligne, il faut remplacer ces valeurs par les vraies.
+// Sources : ancien site Wix (egsabdelguenniche.wixsite.com/egsentreprise13) et
+// annuaire maconnerieinfo.com. Ce qui reste « À compléter » n'y figurait pas.
 
 export const site = {
   name: "EGS Maçonnerie",
@@ -8,23 +8,25 @@ export const site = {
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://egs-maconnerie.vercel.app").replace(/\/$/, ""),
   baseline: "Bâtir d'aplomb",
   description:
-    "EGS Maçonnerie, entreprise de maçonnerie générale et de gros œuvre à Aix-en-Provence et dans tout le Pays d'Aix : construction de maisons, extensions, rénovation en pierre, murs, terrasses et ouvertures de murs porteurs. Devis gratuit sous 48 h.",
+    "EGS Maçonnerie, entreprise de maçonnerie, charpente et rénovation à Salon-de-Provence et dans le pays salonais : construction de maisons, extensions, rénovation en pierre, murs, terrasses, piscines et charpentes bois. Devis gratuit sous 48 h.",
 
-  // À CONFIRMER
-  phone: "06 00 00 00 00",
-  phoneHref: "+33600000000",
-  email: "contact@egs-maconnerie.fr",
-  city: "Aix-en-Provence",
-  postalCode: "13090",
+  owner: "Abdel Guenniche",
+  phone: "07 62 01 23 89",
+  phoneHref: "+33762012389",
+  email: "egs.entreprise13@gmail.com",
+  street: "46 rue de Moscou",
+  city: "Salon-de-Provence",
+  postalCode: "13300",
   region: "Provence-Alpes-Côte d'Azur",
   department: "Bouches-du-Rhône",
-  geo: { lat: 43.5297, lng: 5.4474 },
+  geo: { lat: 43.6403, lng: 5.0973 },
   hours: "Du lundi au vendredi, de 7 h 30 à 18 h",
   openingHours: ["Mo-Fr 07:30-18:00"],
-  siret: "À compléter",
+  siret: "881 746 275 00018",
   insurer: "À compléter",
-  founded: undefined as number | undefined,
-  socials: [] as { label: string; href: string }[],
+  // Année d'installation à Salon-de-Provence (l'activité a débuté en Ardèche en 2007).
+  founded: 2020,
+  socials: [{ label: "Facebook", href: "https://www.facebook.com/egsguenniche/" }],
 } as const;
 
 export const nav = [

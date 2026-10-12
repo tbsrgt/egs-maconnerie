@@ -1165,3 +1165,25 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* Parcours de l'entreprise : repères plus longs (« 16 ans », « 2007 »). */
+.timeline--wide li {
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+}
+
+.quote {
+  margin: 2.5rem 0 0;
+  padding-left: 1.25rem;
+  border-left: 2px solid var(--ocre);
+}
+
+.quote blockquote p {
+  font-size: 1.25rem;
+  line-height: 1.45;
+}
+
+.quote figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--ink-2);
+}

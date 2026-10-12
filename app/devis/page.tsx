@@ -7,9 +7,9 @@ import { services } from "@/lib/services";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Devis gratuit de maçonnerie à Aix-en-Provence",
+  title: "Devis gratuit de maçonnerie à Salon-de-Provence",
   description:
-    "Demandez votre devis de maçonnerie gratuit en deux minutes : extension, gros œuvre, mur, terrasse, rénovation en pierre. Visite sur place et réponse sous 48 h dans le Pays d'Aix.",
+    "Demandez votre devis de maçonnerie gratuit en deux minutes : extension, gros œuvre, charpente, mur, terrasse, piscine, rénovation en pierre. Visite sur place et réponse sous 48 h dans le pays salonais.",
   alternates: { canonical: "/devis" },
 };
 

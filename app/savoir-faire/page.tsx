@@ -7,7 +7,7 @@ import { services } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Savoir-faire : maçonnerie, gros œuvre, pierre et extérieurs",
   description:
-    "Maçonnerie générale, gros œuvre de maison, extension, ouverture de mur porteur, rénovation en pierre, murs et soutènements, terrasses, enduits à la chaux : les savoir-faire d'EGS Maçonnerie dans le Pays d'Aix.",
+    "Maçonnerie générale, gros œuvre de maison, extension, ouverture de mur porteur, rénovation en pierre, murs et soutènements, terrasses et piscines, enduits à la chaux, charpente bois : les savoir-faire d'EGS Maçonnerie dans le pays salonais.",
   alternates: { canonical: "/savoir-faire" },
 };
 
@@ -17,9 +17,9 @@ export default function SavoirFairePage() {
       <PageHero
         crumbs={[{ name: "Savoir-faire", path: "/savoir-faire" }]}
         kicker="Savoir-faire"
-        title="Huit métiers, une seule exigence."
+        title="Neuf métiers, une seule exigence."
         mutedFrom={2}
-        lead="Du terrassement à la dernière pierre, on maîtrise toute la chaîne de la maçonnerie. Chaque savoir-faire a sa page : ce qu'on fait, comment on le fait, ce qui fait varier le prix."
+        lead="Du terrassement à la charpente, on maîtrise toute la chaîne du gros œuvre. Chaque savoir-faire a sa page : ce qu'on fait, comment on le fait, ce qui fait varier le prix."
       />
       <section className="section--tight svc-list">
         <div className="wrap">

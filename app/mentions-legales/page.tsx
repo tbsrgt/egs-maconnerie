@@ -18,15 +18,17 @@ export default function MentionsPage() {
         <div className="wrap legal">
           <h2>Éditeur du site</h2>
           <p>
-            {site.name}
+            {site.name}, entreprise de maçonnerie dirigée par {site.owner}
             <br />
-            {site.city} ({site.postalCode}), {site.department}
+            {site.street}, {site.postalCode} {site.city}
             <br />
             SIRET : {site.siret}
             <br />
             Téléphone : {site.phone}
             <br />
             E-mail : {site.email}
+            <br />
+            Directeur de la publication : {site.owner}
           </p>
           <h2>Assurance professionnelle</h2>
           <p>Garantie décennale souscrite auprès de : {site.insurer}.</p>
@@ -48,6 +50,13 @@ export default function MentionsPage() {
               </li>
             ))}
           </ul>
+          <p>
+            Photo de charpente : National Park Service (domaine public), via{" "}
+            <a href="https://commons.wikimedia.org/wiki/File:12._Roof_and_Porch_Construction._(d29dbcf9-302d-4aea-b877-1f8c8a33f339).jpg" rel="noopener" target="_blank">
+              Wikimedia Commons
+            </a>
+            .
+          </p>
           <p>Typographies : Novecento Sans et Creato Display, sous licences libres.</p>
         </div>
       </section>
