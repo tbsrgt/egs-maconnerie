@@ -49,7 +49,7 @@ export default function HomePage() {
   const featured = projects.slice(0, 6).map((p) => ({
     href: `/realisations/${p.slug}`,
     title: p.title,
-    meta: `${p.commune}, ${p.category.toLowerCase()}`,
+    meta: p.commune ? `${p.commune}, ${p.category.toLowerCase()}` : p.category,
     category: p.category,
     ...img(p.cover),
   }));

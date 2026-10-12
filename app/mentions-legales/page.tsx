@@ -37,7 +37,8 @@ export default function MentionsPage() {
             sans autorisation est interdite.
           </p>
           <h2 id="credits">Crédits photo</h2>
-          <p>Photographies sous licence Unsplash. Merci à leurs auteurs :</p>
+          <p>Photos de chantier et portrait : EGS Maçonnerie.</p>
+          <p>Photos d&apos;illustration sous licence Unsplash. Merci à leurs auteurs :</p>
           <ul className="legal__credits">
             {credits.map((c) => (
               <li key={c.url}>

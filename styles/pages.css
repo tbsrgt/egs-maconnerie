@@ -386,20 +386,16 @@
   gap: clamp(2.5rem, 5vw, 4rem);
 }
 
+/* Photos de chantier prises au téléphone : verticales et de taille modeste,
+   donc des colonnes égales et plafonnées plutôt qu'une grande photo agrandie. */
 .project__gallery {
   display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(var(--n, 3), minmax(0, 26rem));
   gap: 12px;
-  height: clamp(420px, 62vw, 820px);
-}
-
-.project__fig--0 {
-  grid-row: 1 / span 2;
 }
 
 .project__fig .media {
-  height: 100%;
+  aspect-ratio: 3 / 4;
   border-radius: 3px;
 }
 
@@ -461,17 +457,15 @@
 @media (max-width: 800px) {
   .project__gallery {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    grid-template-rows: auto auto;
-    height: auto;
   }
 
-  .project__fig--0 {
-    grid-row: auto;
+  .project__fig--0,
+  .project__fig--1:last-child {
     grid-column: 1 / -1;
   }
 
   .project__fig .media {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 3 / 4;
   }
 
   .project__fig--0 .media {

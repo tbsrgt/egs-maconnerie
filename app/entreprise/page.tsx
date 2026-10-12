@@ -70,7 +70,7 @@ export default function EntreprisePage() {
       <section className="section section--alt">
         <div className="wrap split2">
           <div className="media split2__media" data-reveal="">
-            <Image src="/images/geste-truelle.jpg" alt="Maçon posant le mortier à la truelle sur un mur de briques" fill sizes="(min-width: 900px) 45vw, 92vw" quality={74} />
+            <Image src="/images/abdel.jpg" alt="Abdel Guenniche, fondateur d'EGS Maçonnerie, au volant de son utilitaire" fill sizes="(min-width: 900px) 45vw, 92vw" quality={74} />
           </div>
           <div>
             <p className="kicker" data-reveal="">

@@ -21,12 +21,13 @@ Reste à confirmer avec l'entreprise :
 | Élément | Où le changer |
 | --- | --- |
 | Adresse (46 rue de Moscou : vient de l'annuaire, pas de l'ancien site) | `lib/site.ts` |
-| Réalisations (textes et photos d'illustration, pas encore les vrais chantiers) | `lib/projects.ts` + `public/images/` |
+| Communes des réalisations (vraies photos, lieux inconnus) | `lib/projects.ts` |
 | Engagements (48 h, 30+ maisons…) | `lib/content.ts` |
 | Domaine définitif | variable `NEXT_PUBLIC_SITE_URL` sur Vercel |
 
-Les photos actuelles sont des photos libres (Unsplash, plus une photo de charpente du domaine public),
-étalonnées pour le site. Les remplacer par les vrais chantiers dès que possible : déposer les fichiers dans
+Les réalisations et le portrait utilisent les vraies photos d'EGS (`c-*.jpg`, `abdel.jpg`, reprises de
+l'ancien site Wix, en basse définition). Le reste est en photos libres (Unsplash, plus une charpente du
+domaine public). Pour ajouter des photos : déposer les fichiers dans
 `public/images/` (en .jpg), puis lancer `npm run images` pour mettre à jour `lib/images.ts`.
 
 ## Formulaire de devis
