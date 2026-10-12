@@ -5,9 +5,8 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Mentions légales",
-  description: `Mentions légales du site ${site.name}.`,
+  description: `Mentions légales du site ${site.name} : éditeur, SIRET, coordonnées, hébergement et crédits photo.`,
   alternates: { canonical: "/mentions-legales" },
-  robots: { index: false, follow: true },
 };
 
 export default function MentionsPage() {

@@ -381,12 +381,14 @@
 
 .project {
   display: grid;
+  /* minmax(0, …) : sans ça, la piste prend la largeur intrinsèque des photos et déborde sur mobile. */
+  grid-template-columns: minmax(0, 1fr);
   gap: clamp(2.5rem, 5vw, 4rem);
 }
 
 .project__gallery {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
   grid-template-rows: 1fr 1fr;
   gap: 12px;
   height: clamp(420px, 62vw, 820px);
@@ -458,7 +460,7 @@
 
 @media (max-width: 800px) {
   .project__gallery {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
     grid-template-rows: auto auto;
     height: auto;
   }

@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   title: "Politique de confidentialité",
   description: `Comment ${site.name} traite les données envoyées par le formulaire de devis.`,
   alternates: { canonical: "/confidentialite" },
-  robots: { index: false, follow: true },
 };
 
 export default function ConfidentialitePage() {
