@@ -84,7 +84,15 @@ export function SiteFooter() {
 
         <div className="ftr__base">
           <span>© {new Date().getFullYear()} {site.name}. Maçonnerie, charpente et rénovation dans le pays salonais.</span>
-          <Link href="/mentions-legales#credits">Crédits photo</Link>
+          <span className="ftr__links">
+            <Link href="/mentions-legales#credits">Crédits photo</Link>
+            <span>
+              Fait avec le <span role="img" aria-label="cœur">❤️</span> par{" "}
+              <a href="https://oculot.studio" rel="noopener" target="_blank">
+                oculot.studio
+              </a>
+            </span>
+          </span>
         </div>
       </div>
     </footer>
